@@ -1,0 +1,30 @@
+{
+  "name": "shopeasy",
+  "version": "1.0.0",
+  "description": "Ecommerce App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvlcode/shopeasy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvlcode/shopeasy/issues"
+  },
+  "homepage": "https://github.com/jvlcode/shopeasy#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
